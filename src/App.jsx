@@ -14,7 +14,7 @@ function App() {
       <div className="container">
         <h1 className="hero">Pitch Social</h1>
         <p className="subheading">
-          An upscale, minimalist college bar where vibes meet pitchers.
+          Where vibes meet pitchers.
         </p>
       </div>
     </div>
