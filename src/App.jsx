@@ -1,16 +1,21 @@
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-black via-black to-red-800 text-white">
-      <header className="text-center py-10">
-        <h1 className="text-5xl font-extrabold tracking-wide">Pitch Social</h1>
-        <p className="mt-2 text-sm text-gray-300">An upscale, minimalist college bar where vibes meet pitchers.</p>
+    <div className="flex flex-col items-center justify-center min-h-screen px-4 text-center">
+      <header className="mb-8">
+        <h1 className="text-5xl font-bold tracking-tight uppercase">Pitch Social</h1>
+        <nav className="mt-4 space-x-6 text-sm">
+          <a href="#" className="hover:underline">Menu</a>
+          <a href="#" className="hover:underline">Private Events</a>
+          <a href="#" className="hover:underline">Who We Are</a>
+          <a href="#" className="hover:underline">Location</a>
+        </nav>
       </header>
-      <nav className="flex justify-center space-x-6 text-sm font-medium text-white">
-        <a href="#" className="hover:underline">Menu</a>
-        <a href="#" className="hover:underline">Private Events</a>
-        <a href="#" className="hover:underline">Who We Are</a>
-        <a href="#" className="hover:underline">Location</a>
-      </nav>
+
+      <main>
+        <p className="text-xl max-w-md">
+          An upscale, minimalist college bar where vibes meet pitchers.
+        </p>
+      </main>
     </div>
   );
 }

@@ -1,11 +1,8 @@
-/* Replace everything in index.css with this */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Custom gradient background */
 body {
-  @apply bg-gradient-to-r from-black via-black to-red-800 text-white min-h-screen;
-  font-family: 'Inter', sans-serif;
+  @apply bg-gradient-to-b from-black via-red-900 to-black text-white min-h-screen;
+  font-family: sans-serif;
 }
-
